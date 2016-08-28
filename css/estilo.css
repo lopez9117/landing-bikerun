@@ -3,11 +3,16 @@
 body{
     text-align: center;
 }
-
+.list-servicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .header{
     
     text-align: center;    
-    height: 604px;
+    height: 614px;
     
     justify-content: center;
     align-items: center;
@@ -58,12 +63,15 @@ header h5{
     background-color:#f8f8f8;
     padding:0px;
     padding-top: 30px;
+    height: 600px
 }
 .qs p{
     line-height: 2;
+    
 }
 .ser {
     background-color:#262626;
+   
 }
 h2 {
     padding-bottom: 25px;
@@ -71,20 +79,30 @@ h2 {
 }
 .subtitulo1{
     color: #262626;
+    padding-bottom: 35px;
+    
 }
 .subtitulo2{
     color: white;
+    padding-top: 20px;
 }
 .subtitulo3{
     color: #262626;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .subtitulo4{
     color: white;
 }
 .map {
     background-color:#f8f8f8;
+    height: 600px;
 }
 
+#servicio{
+    height: 600px;
+    
+}
 .content-footer{
      background-color:#262626;
 }
@@ -95,16 +113,46 @@ h2{
     color: gray;
 }
 
-.iphone{  
-    text-align: left;   
-    margin-left: 300px;
-    display:inline;
+.iphone{
+   
+    margin-left: 200px;
+  display:flex;
+    }
+
+.piphone{
+     text-align:justify;
+    font-family:sans-serif;
+    font-size: 23px;   
+    margin-left: 60px;
+    margin-right: 250px;
+    
     
 }
-.parrafo{
-    text-align:justify;
+
+
+ul li h3 {
+    color: white;
+    font-family: sans-serif;
+    }
+ul li p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
 }
 
+  .list-servicio li figure img{
+    background: #ffff;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.list-servicio li{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 
