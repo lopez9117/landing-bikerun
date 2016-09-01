@@ -120,6 +120,7 @@ h2{
     }
 
 .piphone{
+    padding-top: 70px;
      text-align:justify;
     font-family:sans-serif;
     font-size: 23px;   
@@ -148,13 +149,43 @@ ul li p{
     
 }
 
-.list-servicio li{
-    
+.list-servicio li{    
     margin-left: 20px;
     margin-right: 20px;
 }
 
+li{
+    list-style:none
+}
 
+#localization p{
+    font-family: sans-serif;
+   
+}
+ 
+#contacto li {
+    
+    display: inline;
+   text-align: center;
+   margin: 0 40px 0 0;
+    padding-left: 30px
+}
+
+#contacto h3{
+    text-align:center;   
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+        
+}
+
+.izquierdad{
+    text-align: center;
+}
+.derecha{
+  text-align: center;
+    
+}
 
 
 
